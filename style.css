@@ -21,4 +21,5 @@ footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}}
 h1,h2,h3{color:var(--bleu)}
-.logo img{display:block;height:50px;width:auto;max-width:100%}
+.bandeau{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.bandeau img{display:block;height:50px;width:auto;max-width:100%}
