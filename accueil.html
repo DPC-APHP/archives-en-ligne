@@ -4,30 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Archives AP-HP - Accueil</title>
-<style>
-:root{--rouge:#c32e3c;--gris:#444;--bord:#ddd}
-*{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#222;background:#fff}
-header{padding:1rem;background:#fff;border-bottom:1px solid var(--bord)}
-.wrap{max-width:1140px;margin:auto;padding:0 1rem}
-.logo{font-weight:700;color:var(--rouge);text-decoration:none;font-size:1.2rem}
-nav ul{display:flex;flex-wrap:wrap;gap:.75rem;list-style:none;padding:0;margin:1rem 0 0}
-nav a{color:#333;text-decoration:none;font-size:.95rem}
-nav a:hover,nav a:focus{text-decoration:underline}
-main{max-width:1140px;margin:auto;padding:2rem 1rem}
-.intro{margin-bottom:2rem}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2.5rem}
-.card{text-align:center}
-.card h2{margin:0 0 .75rem;font-size:1.15rem}
-.card a{color:var(--rouge);text-decoration:none}
-.card a:hover,.card a:focus{text-decoration:underline}
-.card img{width:150px;height:150px;border-radius:50%;border:1px solid var(--bord);display:block;margin:auto;object-fit:cover}
-.text ul{padding-left:1.25rem}
-.signature{text-align:right;font-style:italic}
-footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size:.9rem;color:#666}
-@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.grid{grid-template-columns:1fr}}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -38,11 +15,13 @@ footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size
 <li><a href="venir.html">Venir en salle de lecture</a></li>
 <li><a href="archives-en-ligne.html">Archives en ligne</a></li>
 <li><a href="recherches-genealogiques.html">Recherches généalogiques</a></li>
+<li><a href="dossiermedical.html">Dossier médical</a></li>
 </ul>
 </nav>
 </div>
 </header>
 
+<main>
 <h1>Accueil</h1>
 
 <p>Ouverture de la salle de lecture du lundi au jeudi de 9h à 17h sans interruption.</p>
@@ -71,5 +50,8 @@ footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size
   <a href="mailto:archives-phototheque.sap@aphp.fr">archives-phototheque.sap@aphp.fr</a>
 </p>
 
+</main>
+
+<footer>Département des patrimoines culturels - Archives</footer>
 </body>
 </html>

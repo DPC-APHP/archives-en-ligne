@@ -4,30 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Archives AP-HP - Venir en salle de lecture</title>
-<style>
-:root{--rouge:#c32e3c;--gris:#444;--bord:#ddd}
-*{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#222;background:#fff}
-header{padding:1rem;background:#fff;border-bottom:1px solid var(--bord)}
-.wrap{max-width:1140px;margin:auto;padding:0 1rem}
-.logo{font-weight:700;color:var(--rouge);text-decoration:none;font-size:1.2rem}
-nav ul{display:flex;flex-wrap:wrap;gap:.75rem;list-style:none;padding:0;margin:1rem 0 0}
-nav a{color:#333;text-decoration:none;font-size:.95rem}
-nav a:hover,nav a:focus{text-decoration:underline}
-main{max-width:1140px;margin:auto;padding:2rem 1rem}
-.intro{margin-bottom:2rem}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2.5rem}
-.card{text-align:center}
-.card h2{margin:0 0 .75rem;font-size:1.15rem}
-.card a{color:var(--rouge);text-decoration:none}
-.card a:hover,.card a:focus{text-decoration:underline}
-.card img{width:150px;height:150px;border-radius:50%;border:1px solid var(--bord);display:block;margin:auto;object-fit:cover}
-.text ul{padding-left:1.25rem}
-.signature{text-align:right;font-style:italic}
-footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size:.9rem;color:#666}
-@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.grid{grid-template-columns:1fr}}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -38,11 +15,13 @@ footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size
 <li><a href="accueil.html">Accueil</a></li>
 <li><a href="archives-en-ligne.html">Archives en ligne</a></li>
 <li><a href="recherches-genealogiques.html">Recherches généalogiques</a></li>
+<li><a href="dossiermedical.html">Dossier médical</a></li>
 </ul>
 </nav>
 </div>
 </header>
 
+<main>
 <h1>Venir</h1>
 
 <p>La salle de lecture du Service des archives de l’AP-HP compte 12 places pour la consultation des documents originaux, 3 postes informatiques et 1 place dédiée à la consultation des grands formats.</p>
@@ -75,7 +54,7 @@ footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size
 
 <p>Les dates sont précisées sur le site Internet deux semaines à l’avance.</p>
 
-<h2>S'inscrire</h2>
+<h2>S’inscrire</h2>
 
 <p>L’inscription, ouverte à tous, est gratuite et se fait sur simple présentation d’une pièce d’identité, ainsi que d’une autorisation pour les mineurs. Elle donne lieu à la délivrance d’une carte de lecteur, valable pour l’année civile en cours, renouvelable annuellement.</p>
 
@@ -83,7 +62,7 @@ footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size
 
 <p>Pour votre information, il est rappelé que les aliments ou boissons sont interdits en salle de lecture.</p>
 
-<p>Pour plus d’informations, vous pouvez consulter le <a href="reglement-salle-lecture.pdf">Règlement de la salle de lecture</a>.</p>
+<p>Pour plus d’informations, vous pouvez consulter le <a href="reglement-salle-lecture.pdf" target="_blank">Règlement de la salle de lecture</a>.</p>
 
 <h2>Délais de communicabilité</h2>
 
@@ -99,9 +78,12 @@ footer{border-top:1px solid var(--bord);padding:1rem;text-align:center;font-size
 
 <p>La demande est transmise dans un 1er temps pour avis au service qui a versé les documents. Le dossier est ensuite adressé pour décision à l’administration des archives. Celle-ci dispose d’un délai de 2 mois pour se prononcer. En cas de non-respect de ce délai ou en cas de réponse négative, le demandeur peut saisir la Commission d’accès aux documents administratifs (CADA), pour avis. Cet avis est consultatif. Il est cependant indispensable, en cas de refus réitéré de l’administration qui détient les documents, pour saisir le tribunal administratif.</p>
 
-<p><a href="formulaire-derogation.pdf">Télécharger le formulaire-demande de dérogation</a></p>
+<p><a href="formulaire-derogation.pdf" target="_blank">Télécharger le formulaire-demande de dérogation</a></p>
 
 <p>Pour en savoir plus : <a href="https://www.cada.fr/">https://www.cada.fr/</a></p>
 
+</main>
+
+<footer>Département des patrimoines culturels - Archives</footer>
 </body>
 </html>
